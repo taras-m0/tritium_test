@@ -1,3 +1,18 @@
+IMPORT FROM CONSOLE
+------------
+```
+$ yii import/personal import.csv
+```
+
+IMPORT FROM WEB
+------------
+Open http://localhost/  and upload import.csv
+
+REST DATA
+---------
+Open http://localhost//index.php?r=site%2Fpersonal&page=0&sort=NAME
+
+
 
 REQUIREMENTS
 ------------
@@ -8,10 +23,12 @@ The minimum requirement by this project template that your Web server supports P
 INSTALLATION
 ------------
 
+```
 git clone https://github.com/taras-m0/tritium_test.git
 cd tritium_test
 composer install
 yii install
+```
 
 CONFIGURATION
 -------------
